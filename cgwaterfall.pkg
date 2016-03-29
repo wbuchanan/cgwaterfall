@@ -1,0 +1,33 @@
+d 'CGWATERFALL': a program for generating waterfall charts for the Strategic 
+d Data Project's College Going Tool Kit.
+d
+d cgwaterfall is a program developed to provide workshop participants with code 
+d they can use to further expand on their own use of Stata and to save time 
+d when producing deliverables associated with the College Going Toolkit.
+d
+d KW: Data Visualization
+d KW: Graphs
+d KW: Stata Programming
+d KW: Automation
+d
+d Requires: Stata version 13.1
+d
+d Distribution-Date: 20150520
+d
+d Author: Billy Buchanan, Strategic Data Fellow, Mississippi Department of Education
+d Support: email BBuchanan@mde.k12.ms.us
+d
+f cgwaterfall.ado
+f cgwaterfall.sthlp
+F cgwaterfallex1.do
+F cgwaterfallex2.do
+F cgwaterfallex3.do
+F cgwaterfallex4.do
+F cgwaterfall.stpr
+F cgbubble1.do
+F diff_bubble.txt
+F sdpWorkshop.pdf
+f cgwaterfalldemo.ado
+f cgbubble.ado
+f cgbubble.sthlp
+

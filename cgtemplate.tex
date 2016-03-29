@@ -1,0 +1,21 @@
+\documentclass[12pt,oneside,final,letterpaper]{article}
+\usepackage{pdflscape}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{longtable}
+\usepackage[toc,page,titletoc]{appendix}
+\DeclareGraphicsExtensions{.pdf, .png}
+\graphicspath{{"`c(pwd)'"}}
+\title{Stata Output Example: \\ `c(current_date)'}
+\author{`c(username)'}
+\let\mypdfximage\pdfximage
+\def\pdfximage{\immediate\mypdfximage}
+\begin{document}
+\begin{titlepage} \maketitle \end{titlepage}
+\newpage\clearpage \tableofcontents \newpage\clearpage
+\listoffigures \newpage\clearpage
+\listoftables \newpage\clearpage
+
+\input{stataout.tex}
+
+\end{document}
